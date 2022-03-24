@@ -3,12 +3,12 @@ html {
   color: #222;
 }
 
-*, *::before *::after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
 body {
-  background-color: #c9b5ab ;
+  background-color: #c9b5ab;
   font-family: "PT Serif", serif;
   font-weight: normal;
   font-size: 1rem;
@@ -21,7 +21,7 @@ h1 {
   color: #3f1662;
 }
 
-nav
+nav {
   font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
   color: #8f2440;
@@ -64,7 +64,7 @@ figcaption {
 }
 
 .review {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-style: italic;
 }
 
@@ -76,7 +76,7 @@ section li {
   list-style: lower-greek;
 }
 
-p {
+section p {
 font-style: italic;
 }
 
